@@ -12,3 +12,10 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+
+// Function to generate a random password based on the user criteria 
+function generatePassword() {
+  // Propmt for password length
+  var passwordLength = prompt("Enter the length of the password (between 8 and 128 characters):");
+}
