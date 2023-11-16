@@ -38,3 +38,9 @@ if (!(includeLowercase || includeUppercase || includeNumeric || includeSpecial))
   return "";
 }
 
+//  Define character sets based on user input 
+var lowercaseChars = "abcdefghijklmnopqrstuvwxyz";
+var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var numericChars = "0123456789";
+var specialChars = "!@#$%^&*()-=_+[]{}|;:'\",.<>/?"
+
