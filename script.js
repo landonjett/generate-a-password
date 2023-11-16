@@ -44,3 +44,10 @@ var uppercaseChars = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numericChars = "0123456789";
 var specialChars = "!@#$%^&*()-=_+[]{}|;:'\",.<>/?"
 
+// Combine selected character sets 
+var allChars = "";
+if (includeLowercase) allChars += lowercaseChars;
+if (includeUppercase) allChars += uppercaseChars;
+if (includeNumeric) allChars += numericChars;
+if (includeSpecial) allChars += specialChars;
+
