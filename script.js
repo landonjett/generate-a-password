@@ -26,8 +26,15 @@ if (passwordLength < 8 || passwordLength > 128 || isNaN(passwordLength)) {
   return "";
 }
 
-// Prompt for character types 
+// Prompt for character types
 var includeLowercase = confirm("Include lowercase characters?");
 var includeUppercase = confirm("Include uppercase characters?");
-var includeNumeric = confirm("Include Numeric characters?");
+var includeNumeric = confirm("Include numeric characters?");
 var includeSpecial = confirm("Include special characters?");
+
+// Validate that at least one character type is selected
+if (!(includeLowercase || includeUppercase || includeNumeric || includeSpecial)) {
+  alert("Please select at least one character type.");
+  return "";
+}
+
