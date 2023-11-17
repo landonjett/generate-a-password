@@ -9,6 +9,8 @@ This is my password generator repository. I modified the existing code to build 
 
 to use the website and generate your own password, click this link: 
 
+https://landonjett.github.io/generate-a-password/
+
 you can also view this screen shot of the website for your reference. 
 
 ![password screenshot](./assets/images/password-screenshot.png)
